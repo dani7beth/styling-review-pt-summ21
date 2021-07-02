@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .App {
   text-align: center;
 }
@@ -35,4 +36,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+  height: 800px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.box1{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  box-shadow: 5px 5px 1px 1px rgba(0, 0, 0, .4);
+}
+.box2{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  align-self: flex-end;
+}
+.box3{
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  align-self: flex-end;
+}
+.fullname{
+  color: black;
+  font-family: "Roboto";
+  font-size: 3em;
 }
